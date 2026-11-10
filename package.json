@@ -1,0 +1,32 @@
+{
+  "name": "reto-automatizacion-qa-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@serenity-js/assertions": "^3.49.0",
+    "@serenity-js/console-reporter": "^3.49.0",
+    "@serenity-js/core": "^3.49.0",
+    "@serenity-js/cucumber": "^3.49.0",
+    "@serenity-js/html-reporter": "^3.49.0",
+    "@serenity-js/playwright": "^3.49.0",
+    "@serenity-js/web": "^3.49.0",
+    "@types/node": "^26.6.6",
+    "playwright": "1.64.1",
+    "ts-node": "^10.9.2",
+    "typescript": "6.0.3"
+  },
+  "overrides": {
+    "@serenity-js/html-reporter": {
+      "zod": "4.6.6"
+    }
+  }
+}

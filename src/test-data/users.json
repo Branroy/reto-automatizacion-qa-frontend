@@ -1,0 +1,17 @@
+{
+  "standard_user": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "description": "Usuario estándar con acceso permitido"
+  },
+  "locked_out_user": {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "description": "Usuario bloqueado por la aplicación"
+  },
+  "invalid_user": {
+    "username": "invalid_user",
+    "password": "invalid_password",
+    "description": "Usuario con credenciales incorrectas"
+  }
+}

@@ -1,0 +1,28 @@
+
+{
+  "validPurchase": {
+    "firstName": "Test",
+    "lastName": "Customer",
+    "postalCode": "12345"
+  },
+  "requiredFieldValidations": {
+    "missingFirstName": {
+      "firstName": "",
+      "lastName": "Customer",
+      "postalCode": "12345",
+      "expectedMessage": "Error: First Name is required"
+    },
+    "missingLastName": {
+      "firstName": "Test",
+      "lastName": "",
+      "postalCode": "12345",
+      "expectedMessage": "Error: Last Name is required"
+    },
+    "missingPostalCode": {
+      "firstName": "Test",
+      "lastName": "Customer",
+      "postalCode": "",
+      "expectedMessage": "Error: Postal Code is required"
+    }
+  }
+}
